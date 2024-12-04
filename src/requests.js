@@ -1,4 +1,4 @@
-const key = "cd8fae49b4b7d235fd72fe4c1dada48e";
+const key = import.meta.env.VITE_MOVIE_API
 
 const requests = {
   requestUpcoming: `https://api.themoviedb.org/3/movie/upcoming?api_key=${key}&language=en-US&page=1`,

@@ -26,15 +26,15 @@ const Hero = () => {
     }
   };
   return (
-    <div className="w-full h-[680px] text-white">
+    <div className="w-full h-[700px] text-white">
       <div className="w-full h-full">
-        <div className="absolute w-full h-[680px] bg-gradient-to-r from-black"></div>
+        <div className="absolute w-full h-[700px] bg-gradient-to-r from-black"></div>
         <img
           className="w-full h-full object-cover "
           src={`https://image.tmdb.org/t/p/original/${movie?.backdrop_path}`}
           alt={movie?.title}
         />
-        <div className="absolute w-full top-[50%] p-4 md:p-8">
+        <div className="absolute w-full top-[40%] p-4 md:p-8">
           <h1 className="text-3xl md:text-5xl md:text-wrap">{movie?.title}</h1>
           <div className="my-4">
             <button className="border btn btn-error py-2 px-5">play</button>
